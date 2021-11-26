@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DB2-telco:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>DB2-telco</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="DB2-telco-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="DB2-telco:war exploded" />
+    </root>
+  </artifact>
+</component>
